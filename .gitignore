@@ -1,0 +1,41 @@
+# Datos privados y operativos
+reservas/
+huespedes/
+clientes/
+finanzas/
+pagos/
+exportaciones/
+backups/
+backup/
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Configuración y secretos
+.env
+.env.*
+wp-config.php
+*.pem
+*.key
+credentials*
+secrets*
+
+# Documentos comerciales y archivos pesados
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.xls
+*.pbix
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+
+# Sistema
+Thumbs.db
+.DS_Store
+~$*
