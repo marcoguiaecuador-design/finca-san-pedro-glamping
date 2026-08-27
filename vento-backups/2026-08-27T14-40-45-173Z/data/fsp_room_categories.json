@@ -1,0 +1,73 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "category_id": "CAT-STD",
+      "category_name": "Estandar",
+      "display_name": "ESTANDAR",
+      "area_m2": 16,
+      "official_capacity": 2,
+      "extra_person_allowed": false,
+      "status": "Vigente",
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "notes": "Datos maestros oficiales de tarifas Rack 2026.",
+      "id": "202608-270233-19637-4edd6cf8"
+    },
+    {
+      "category_id": "CAT-DEL",
+      "category_name": "Superior (Deluxe)",
+      "display_name": "SUPERIOR (DELUXE)",
+      "area_m2": 25,
+      "official_capacity": 5,
+      "extra_person_allowed": true,
+      "status": "Vigente",
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "notes": "Datos maestros oficiales de tarifas Rack 2026.",
+      "id": "202608-270233-21979-252a20ce"
+    },
+    {
+      "category_id": "CAT-JUN",
+      "category_name": "Junior Suite (Inclusiva)",
+      "display_name": "JUNIOR SUITE (INCLUSIVA)",
+      "area_m2": 42,
+      "official_capacity": 2,
+      "extra_person_allowed": false,
+      "status": "Vigente",
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "notes": "Datos maestros oficiales de tarifas Rack 2026.",
+      "id": "202608-270233-23513-b6c06bdc"
+    },
+    {
+      "category_id": "CAT-MAS",
+      "category_name": "Master Suite",
+      "display_name": "MASTER SUITE",
+      "area_m2": 36,
+      "official_capacity": 5,
+      "extra_person_allowed": true,
+      "status": "Vigente",
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "notes": "Datos maestros oficiales de tarifas Rack 2026.",
+      "id": "202608-270233-24451-6df26b2a"
+    },
+    {
+      "category_id": "CAT-DOMO",
+      "category_name": "Domo Glamping",
+      "display_name": "DOMO GLAMPING",
+      "area_m2": 64,
+      "official_capacity": 4,
+      "extra_person_allowed": true,
+      "status": "Vigente",
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "notes": "Datos maestros oficiales de tarifas Rack 2026.",
+      "id": "202608-270233-26616-9ce1062e"
+    }
+  ],
+  "total": 5,
+  "page": 0,
+  "pages": 1
+}
