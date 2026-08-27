@@ -1,0 +1,42 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "payment_id": "DEMO-P1-20260827021441",
+      "reservation_id": "DEMO-R-20260827021441",
+      "reservation_code": "DEMO-R-20260827021441",
+      "guest_name": "DEMO Fase Uno A",
+      "payment_type": "Anticipo",
+      "payment_date": "2026-09-01",
+      "amount": 80,
+      "method": "Transferencia",
+      "status": "Confirmado",
+      "reference": "DEMO anticipo",
+      "registered_by": "marcoguiaecuador@gmail.com",
+      "timestamp": "2026-08-27T02:35:11Z",
+      "id": "202608-270214-47075-496f8650",
+      "data_classification": "DEMO",
+      "source": "DEMO Fase 1A"
+    },
+    {
+      "payment_id": "DEMO-P2-20260827021441",
+      "reservation_id": "DEMO-R-20260827021441",
+      "reservation_code": "DEMO-R-20260827021441",
+      "guest_name": "DEMO Fase Uno A",
+      "payment_type": "Saldo",
+      "payment_date": "2026-09-12",
+      "amount": 120,
+      "method": "Efectivo",
+      "status": "Confirmado",
+      "reference": "DEMO saldo",
+      "registered_by": "marcoguiaecuador@gmail.com",
+      "timestamp": "2026-08-27T02:35:11Z",
+      "id": "202608-270214-53881-16fd34f6",
+      "data_classification": "DEMO",
+      "source": "DEMO Fase 1A"
+    }
+  ],
+  "total": 2,
+  "page": 0,
+  "pages": 1
+}
