@@ -1,0 +1,57 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "name": "Administrador",
+      "description": "Acceso total a configuración, datos, operación y reportes.",
+      "permissions": "all",
+      "active": true,
+      "id": "202608-270023-17896-3d56b4f7"
+    },
+    {
+      "name": "Recepción",
+      "description": "Check-in, check-out, huéspedes, pagos y reservas del día.",
+      "permissions": "reservations,guests,payments,checkin,checkout",
+      "active": true,
+      "id": "202608-270023-17915-46bd11ed"
+    },
+    {
+      "name": "Mantenimiento",
+      "description": "Activos, incidencias, tareas técnicas e IoT técnico.",
+      "permissions": "tasks,maintenance,assets,iot_read",
+      "active": true,
+      "id": "202608-270023-17982-891dc166"
+    },
+    {
+      "name": "Operaciones",
+      "description": "Reservas, huéspedes, tareas, limpieza y mantenimiento operativo.",
+      "permissions": "reservations,guests,tasks,housekeeping,maintenance",
+      "active": true,
+      "id": "202608-270023-18632-8cbd2a9c"
+    },
+    {
+      "name": "Gerencia",
+      "description": "Dashboard, finanzas gerenciales, KPIs y reportes.",
+      "permissions": "dashboard,finance,kpis,reports,read_all",
+      "active": true,
+      "id": "202608-270023-28392-04b3a5cc"
+    },
+    {
+      "name": "Cocina",
+      "description": "Menú, órdenes, inventario de cocina y consumos relacionados.",
+      "permissions": "restaurant,inventory_kitchen,tasks",
+      "active": true,
+      "id": "202608-270023-28402-6fad1ed8"
+    },
+    {
+      "name": "Personal operativo",
+      "description": "Acceso limitado a tareas asignadas, evidencias y checklists.",
+      "permissions": "assigned_tasks,checklists,evidence",
+      "active": true,
+      "id": "202608-270023-28610-73a2e0a2"
+    }
+  ],
+  "total": 7,
+  "page": 0,
+  "pages": 1
+}
