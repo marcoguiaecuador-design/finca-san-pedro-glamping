@@ -1,0 +1,16 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "email": "marcoguiaecuador@gmail.com",
+      "display_name": "Marco Guia Ecuador",
+      "role": "Administrador",
+      "status": "Activo",
+      "notes": "Usuario bootstrap de administración funcional Fase 1A.",
+      "id": "202608-270208-18677-b22a786c"
+    }
+  ],
+  "total": 1,
+  "page": 0,
+  "pages": 1
+}
