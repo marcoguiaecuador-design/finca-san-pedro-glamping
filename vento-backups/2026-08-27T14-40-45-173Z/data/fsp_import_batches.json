@@ -1,0 +1,42 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "import_batch_id": "IMP-1787799393127",
+      "source_name": "Sistema Maestro de Reservas y Operacion",
+      "file_name": "Sistema Maestro de Reservas y Operación _ Finca San Pedro.xlsx",
+      "file_type": "xlsx",
+      "status": "VALIDACION - NO IMPORTADO",
+      "created_by": "marcoguiaecuador@gmail.com",
+      "created_at": "2026-08-27T02:56:33Z",
+      "total_records": 1001,
+      "valid_records": 0,
+      "warning_records": 47,
+      "error_records": 954,
+      "duplicate_records": 905,
+      "mapping_json": "[[\"ID Reserva / Codigo\",\"fsp_reservations.original_id / reservation_code\"],[\"Fecha reserva\",\"fsp_reservations.created_at\"],[\"Nombre cliente\",\"fsp_guests.first_names / full_name\"],[\"Apellido cliente\",\"fsp_guests.last_names\"],[\"Telefono\",\"fsp_guests.phone\"],[\"Email\",\"fsp_guests.email\"],[\"Documento\",\"fsp_guests.document_id\"],[\"Unidad\",\"fsp_reservations.unit_code\"],[\"Check-in\",\"fsp_reservations.check_in\"],[\"Check-out\",\"fsp_reservations.check_out\"],[\"Noches\",\"fsp_reservations.nights\"],[\"Personas\",\"fsp_reservations.people_count\"],[\"Canal\",\"fsp_reservations.channel\"],[\"Tarifa historica\",\"fsp_reservations.rate / historical_rate_notes\"],[\"Total\",\"fsp_reservations.total\"],[\"Cobrado\",\"fsp_payments.amount acumulado / fsp_reservations.collected_amount\"],[\"Saldo\",\"fsp_reservations.pending_balance\"],[\"Estado\",\"fsp_reservations.status\"],[\"Observaciones\",\"fsp_reservations.notes\"],[\"Cualquier campo no soportado\",\"reporte de campos no soportados antes de importar\"]]",
+      "validation_report_json": "{\"total\":1001,\"valid\":0,\"warnings\":47,\"errors\":954,\"duplicates\":905}",
+      "id": "202608-270256-34746-23e13fbb"
+    },
+    {
+      "import_batch_id": "IMP-1787799396110",
+      "source_name": "Sistema Maestro de Reservas y Operacion",
+      "file_name": "Sistema Maestro de Reservas y Operación _ Finca San Pedro.xlsx",
+      "file_type": "xlsx",
+      "status": "VALIDACION - NO IMPORTADO",
+      "created_by": "marcoguiaecuador@gmail.com",
+      "created_at": "2026-08-27T02:56:36Z",
+      "total_records": 1001,
+      "valid_records": 0,
+      "warning_records": 47,
+      "error_records": 954,
+      "duplicate_records": 905,
+      "mapping_json": "[[\"ID Reserva / Codigo\",\"fsp_reservations.original_id / reservation_code\"],[\"Fecha reserva\",\"fsp_reservations.created_at\"],[\"Nombre cliente\",\"fsp_guests.first_names / full_name\"],[\"Apellido cliente\",\"fsp_guests.last_names\"],[\"Telefono\",\"fsp_guests.phone\"],[\"Email\",\"fsp_guests.email\"],[\"Documento\",\"fsp_guests.document_id\"],[\"Unidad\",\"fsp_reservations.unit_code\"],[\"Check-in\",\"fsp_reservations.check_in\"],[\"Check-out\",\"fsp_reservations.check_out\"],[\"Noches\",\"fsp_reservations.nights\"],[\"Personas\",\"fsp_reservations.people_count\"],[\"Canal\",\"fsp_reservations.channel\"],[\"Tarifa historica\",\"fsp_reservations.rate / historical_rate_notes\"],[\"Total\",\"fsp_reservations.total\"],[\"Cobrado\",\"fsp_payments.amount acumulado / fsp_reservations.collected_amount\"],[\"Saldo\",\"fsp_reservations.pending_balance\"],[\"Estado\",\"fsp_reservations.status\"],[\"Observaciones\",\"fsp_reservations.notes\"],[\"Cualquier campo no soportado\",\"reporte de campos no soportados antes de importar\"]]",
+      "validation_report_json": "{\"total\":1001,\"valid\":0,\"warnings\":47,\"errors\":954,\"duplicates\":905}",
+      "id": "202608-270256-36402-2fee35a8"
+    }
+  ],
+  "total": 2,
+  "page": 0,
+  "pages": 1
+}
