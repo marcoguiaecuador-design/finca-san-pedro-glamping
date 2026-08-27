@@ -1,0 +1,31 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "task_id": "DEMO-T-20260827021441",
+      "task_type": "Limpieza",
+      "module": "Limpieza",
+      "title": "DEMO Limpieza DEMO-U-20260827021441",
+      "description": "DEMO limpieza automatica despues de check-out.",
+      "responsible": "Configurar responsable",
+      "priority": "Alta",
+      "status": "Completada",
+      "due_date": "2026-09-12",
+      "related_entity": "reservation",
+      "related_ref": "DEMO-R-20260827021441",
+      "reservation_id": "DEMO-R-20260827021441",
+      "unit_id": "202608-270214-43417-e68fdfdc",
+      "created_at": "2026-08-27T02:14:58Z",
+      "checklist": "[\"Retirar lenceria usada\",\"Tender cama\",\"Limpiar bano\",\"Reponer papel higienico\",\"Reponer jabon\",\"Reponer amenities\",\"Revisar toallas\",\"Revisar agua caliente\",\"Revisar iluminacion\",\"Revisar danos\",\"Retirar basura\",\"Revisar estado general\"]",
+      "checklist_status": "{\"0\":true,\"1\":true,\"2\":true,\"3\":true,\"4\":true,\"5\":true,\"6\":true,\"7\":true,\"8\":true,\"9\":true,\"10\":true,\"11\":true}",
+      "id": "202608-270214-58972-e5b5506e",
+      "completed_at": "2026-08-27T02:14:59Z",
+      "completed_by": "marcoguiaecuador@gmail.com",
+      "data_classification": "DEMO",
+      "source": "DEMO Fase 1A"
+    }
+  ],
+  "total": 1,
+  "page": 0,
+  "pages": 1
+}
