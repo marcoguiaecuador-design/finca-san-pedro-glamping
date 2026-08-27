@@ -1,0 +1,78 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "fase_1a_demo_completa",
+      "entity": "fsp_reservations",
+      "entity_id": "202608-270214-44327-4fa7db14",
+      "timestamp": "2026-08-27T02:15:01Z",
+      "previous_data": "",
+      "new_data": "DEMO ciclo completo DEMO-R-20260827021441",
+      "id": "202608-270215-02074-9c05f941"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "clasificacion_unidades_fase_1a2",
+      "entity": "fsp_units",
+      "entity_id": "batch-units-2026-rack",
+      "timestamp": "2026-08-27T02:34:49Z",
+      "previous_data": "No se eliminaron unidades ni se cambiaron codigos.",
+      "new_data": "Unidades marcadas como DEMO, OPERATIVA_ACTUAL o revision requerida; categorias oficiales enlazadas cuando el codigo coincide.",
+      "id": "202608-270234-49545-c88328f5"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "clasificacion_demo_fase_1a2",
+      "entity": "fsp_reservations,fsp_payments,fsp_tasks",
+      "entity_id": "demo-fase-1a",
+      "timestamp": "2026-08-27T02:35:11Z",
+      "new_data": "Registros DEMO marcados para no mezclarse con historico real.",
+      "id": "202608-270235-26113-a9113874"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "correccion_texto_inclusion_oficial",
+      "entity": "fsp_rate_plan_inclusions,fsp_rate_plans",
+      "entity_id": "INC-2026-5",
+      "timestamp": "2026-08-27T02:40:58Z",
+      "previous_data": "Experiencia de ordeno",
+      "new_data": "Experiencia de ordeño",
+      "id": "202608-270241-03298-2d59fe8d"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "creacion_plantilla_mapeo_importacion",
+      "entity": "fsp_import_mapping_templates",
+      "entity_id": "MAP-SISTEMA-MAESTRO-RESERVAS-OPERACION-V1",
+      "timestamp": "2026-08-27T02:41:31Z",
+      "new_data": "{\"template_id\":\"MAP-SISTEMA-MAESTRO-RESERVAS-OPERACION-V1\",\"source_name\":\"Sistema Maestro de Reservas y Operacion\",\"status\":\"Pendiente de aprobacion administrativa\",\"created_at\":\"2026-08-27T02:41:31Z\",\"mapping_json\":\"[{\\\"source_field\\\":\\\"ID Reserva / Codigo\\\",\\\"target_field\\\":\\\"fsp_reservations.original_id / reservation_code\\\"},{\\\"source_field\\\":\\\"Fecha reserva\\\",\\\"target_field\\\":\\\"fsp_reservations.created_at\\\"},{\\\"source_field\\\":\\\"Nombre cliente\\\",\\\"target_field\\\":\\\"fsp_guests.first_names / full_name\\\"},{\\\"source_field\\\":\\\"Apellido cliente\\\",\\\"target_field\\\":\\\"fsp_guests.last_names\\\"},{\\\"source_field\\\":\\\"Telefono\\\",\\\"target_field\\\":\\\"fsp_guests.phone\\\"},{\\\"source_field\\\":\\\"Email\\\",\\\"target_field\\\":\\\"fsp_guests.email\\\"},{\\\"source_field\\\":\\\"Documento\\\",\\\"target_field\\\":\\\"fsp_guests.document_id\\\"},{\\\"source_field\\\":\\\"Unidad\\\",\\\"target_field\\\":\\\"fsp_reservations.unit_code\\\"},{\\\"source_field\\\":\\\"Check-in\\\",\\\"target_field\\\":\\\"fsp_reservations.check_in\\\"},{\\\"source_field\\\":\\\"Check-out\\\",\\\"target_field\\\":\\\"fsp_reservations.check_out\\\"},{\\\"source_field\\\":\\\"Noches\\\",\\\"target_field\\\":\\\"fsp_reservations.nights\\\"},{\\\"source_field\\\":\\\"Personas\\\",\\\"target_field\\\":\\\"fsp_reservations.people_count\\\"},{\\\"source_field\\\":\\\"Canal\\\",\\\"target_field\\\":\\\"fsp_reservations.channel\\\"},{\\\"source_field\\\":\\\"Tarifa historica\\\",\\\"target_field\\\":\\\"fsp_reservations.rate / historical_rate_notes\\\"},{\\\"source_field\\\":\\\"Total\\\",\\\"target_field\\\":\\\"fsp_reservations.total\\\"},{\\\"source_field\\\":\\\"Cobrado\\\",\\\"target_field\\\":\\\"fsp_payments.amount acumulado / fsp_reservations.collected_amount\\\"},{\\\"source_field\\\":\\\"Saldo\\\",\\\"target_field\\\":\\\"fsp_reservations.pending_balance\\\"},{\\\"source_field\\\":\\\"Estado\\\",\\\"target_field\\\":\\\"fsp_reservations.status\\\"},{\\\"source_field\\\":\\\"Observaciones\\\",\\\"target_field\\\":\\\"fsp_reservations.notes\\\"},{\\\"source_field\\\":\\\"Campo no soportado\\\",\\\"target_field\\\":\\\"Reporte de campo no soportado y propuesta de nueva tabla historica\\\"}]\",\"notes\":\"Plantilla base. No ejecuta importacion real hasta recibir archivo historico y aprobacion.\"}",
+      "id": "202608-270241-33057-eb1fdd8a"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "validacion_importacion_historica",
+      "entity": "fsp_import_batches",
+      "entity_id": "IMP-1787799393127",
+      "timestamp": "2026-08-27T02:56:36Z",
+      "previous_data": "",
+      "new_data": "{\"total\":1001,\"valid\":0,\"warnings\":47,\"errors\":954,\"duplicates\":905}",
+      "import_batch_id": "IMP-1787799393127",
+      "id": "202608-270256-36527-e508583c"
+    },
+    {
+      "user": "marcoguiaecuador@gmail.com",
+      "action": "validacion_importacion_historica",
+      "entity": "fsp_import_batches",
+      "entity_id": "IMP-1787799396110",
+      "timestamp": "2026-08-27T02:56:36Z",
+      "previous_data": "",
+      "new_data": "{\"total\":1001,\"valid\":0,\"warnings\":47,\"errors\":954,\"duplicates\":905}",
+      "import_batch_id": "IMP-1787799396110",
+      "id": "202608-270256-37317-cc0fce0e"
+    }
+  ],
+  "total": 7,
+  "page": 0,
+  "pages": 1
+}
