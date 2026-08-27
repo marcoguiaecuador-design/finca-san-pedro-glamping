@@ -1,0 +1,162 @@
+{
+  "itemsPerPage": 25,
+  "items": [
+    {
+      "inclusion_id": "INC-2026-1",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Hospedaje",
+      "item_group": "General",
+      "sort_order": 1,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-27050-2d67dae3"
+    },
+    {
+      "inclusion_id": "INC-2026-2",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Desayuno americano",
+      "item_group": "General",
+      "sort_order": 2,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-28775-80185936"
+    },
+    {
+      "inclusion_id": "INC-2026-3",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Caminata por sendero",
+      "item_group": "General",
+      "sort_order": 3,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-29343-83691bff"
+    },
+    {
+      "inclusion_id": "INC-2026-4",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Recorrido por instalaciones",
+      "item_group": "General",
+      "sort_order": 4,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-30550-1977b5c4"
+    },
+    {
+      "inclusion_id": "INC-2026-5",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Experiencia de ordeño",
+      "item_group": "General",
+      "sort_order": 5,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-31008-f997a00f"
+    },
+    {
+      "inclusion_id": "INC-2026-6",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Uso de jacuzzi",
+      "item_group": "General",
+      "sort_order": 6,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-39198-a1002ccb"
+    },
+    {
+      "inclusion_id": "INC-2026-7",
+      "rate_plan": "Plan 1 - Hospedaje + Desayuno",
+      "item": "Uso de fogata",
+      "item_group": "General",
+      "sort_order": 7,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-40495-f0d00213"
+    },
+    {
+      "inclusion_id": "INC-2026-8",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Hospedaje",
+      "item_group": "General",
+      "sort_order": 1,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-42449-70f2ff50"
+    },
+    {
+      "inclusion_id": "INC-2026-9",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Cena: entrada",
+      "item_group": "Cena",
+      "sort_order": 2,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-45473-47e49399"
+    },
+    {
+      "inclusion_id": "INC-2026-10",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Cena: plato fuerte",
+      "item_group": "Cena",
+      "sort_order": 3,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-46398-00681a39"
+    },
+    {
+      "inclusion_id": "INC-2026-11",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Cena: postre",
+      "item_group": "Cena",
+      "sort_order": 4,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-47141-aa9096aa"
+    },
+    {
+      "inclusion_id": "INC-2026-12",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Cena: bebida",
+      "item_group": "Cena",
+      "sort_order": 5,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-48049-3e85be6e"
+    },
+    {
+      "inclusion_id": "INC-2026-13",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Desayuno americano",
+      "item_group": "General",
+      "sort_order": 6,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-49603-68b3840c"
+    },
+    {
+      "inclusion_id": "INC-2026-14",
+      "rate_plan": "Plan 2 - Experiencia Completa",
+      "item": "Actividades incluidas de la finca",
+      "item_group": "General",
+      "sort_order": 7,
+      "source": "TARIFAS RACK OFICIALES 2026",
+      "valid_from": "2026-01-01",
+      "status": "Vigente",
+      "id": "202608-270233-50300-a666f1a3"
+    }
+  ],
+  "total": 14,
+  "page": 0,
+  "pages": 1
+}
