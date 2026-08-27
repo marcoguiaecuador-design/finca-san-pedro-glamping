@@ -1,0 +1,2568 @@
+{
+  "items": [
+    {
+      "name": "fsp_alerts",
+      "id": "fsp_alertsStorageModel",
+      "keys": {
+        "category": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "description": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            }
+          ]
+        },
+        "responsible": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "action_taken": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "closed_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_alerts",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_app_users",
+      "id": "fsp_app_usersStorageModel",
+      "keys": {
+        "email": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "email",
+              "params": []
+            },
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "display_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "role": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "phone": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_app_users",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_audit_logs",
+      "id": "fsp_audit_logsStorageModel",
+      "keys": {
+        "user": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "action": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "entity": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "entity_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "timestamp": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "previous_data": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "new_data": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "import_batch_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_audit_logs",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_guests",
+      "id": "fsp_guestsStorageModel",
+      "keys": {
+        "full_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "document_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "email": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "email",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "phone": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "country": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "city": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "dietary_needs": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "emergency_contact": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "guest_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "first_names": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "last_names": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "nationality": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "document_type": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "birth_date": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "updated_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_guests",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_import_batches",
+      "id": "fsp_import_batchesStorageModel",
+      "keys": {
+        "import_batch_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "source_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "file_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "file_type": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "created_by": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "total_records": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "valid_records": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "warning_records": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "error_records": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "duplicate_records": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "mapping_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "validation_report_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_import_batches",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_import_mapping_templates",
+      "id": "fsp_import_mapping_templatesStorageModel",
+      "keys": {
+        "template_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "source_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "mapping_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_import_mapping_templates",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_import_rows",
+      "id": "fsp_import_rowsStorageModel",
+      "keys": {
+        "import_row_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "import_batch_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "row_number": {
+          "type": "number",
+          "params": [],
+          "modifiers": []
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "duplicate_flag": {
+          "type": "boolean",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "error_count": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "warning_count": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "raw_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            }
+          ]
+        },
+        "mapped_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "issues_json": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_import_rows",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_payments",
+      "id": "fsp_paymentsStorageModel",
+      "keys": {
+        "reservation_code": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "guest_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "payment_type": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "amount": {
+          "type": "number",
+          "params": [],
+          "modifiers": []
+        },
+        "method": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "payment_date": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "payment_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "reservation_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "registered_by": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "timestamp": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "import_batch_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_payments",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_rate_plan_inclusions",
+      "id": "fsp_rate_plan_inclusionsStorageModel",
+      "keys": {
+        "inclusion_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "rate_plan": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "item": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "item_group": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "sort_order": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "valid_from": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "valid_to": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_rate_plan_inclusions",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_rate_plans",
+      "id": "fsp_rate_plansStorageModel",
+      "keys": {
+        "rate_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "category_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "room_category": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "rate_plan": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "base_price": {
+          "type": "number",
+          "params": [],
+          "modifiers": []
+        },
+        "included_capacity": {
+          "type": "number",
+          "params": [],
+          "modifiers": []
+        },
+        "extra_person_price": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "valid_from": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "valid_to": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "inclusions": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_rate_plans",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_reservations",
+      "id": "fsp_reservationsStorageModel",
+      "keys": {
+        "reservation_code": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "guest_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "guest_ref": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "unit_code": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "channel": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "check_in": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "check_out": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "adults": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "children": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "reserved_amount": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "collected_amount": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "pending_balance": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "commission": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "taxes": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "net_income": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "reservation_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "primary_guest_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "guest_ids": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "updated_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "nights": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "people_count": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "rate": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "subtotal": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "discounts": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "total": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "actual_check_in_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "actual_check_out_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status_history": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "import_batch_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "historical_rate_notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "data_classification": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "original_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_reservations",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_roles",
+      "id": "fsp_rolesStorageModel",
+      "keys": {
+        "name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "description": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "permissions": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "active": {
+          "type": "boolean",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_roles",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_room_categories",
+      "id": "fsp_room_categoriesStorageModel",
+      "keys": {
+        "category_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "category_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "display_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "area_m2": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "official_capacity": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "extra_person_allowed": {
+          "type": "boolean",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "valid_from": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            }
+          ]
+        },
+        "valid_to": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_room_categories",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_tasks",
+      "id": "fsp_tasksStorageModel",
+      "keys": {
+        "title": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "module": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "related_ref": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "responsible": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "backup": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "due_date": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "datePicker",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "due_time": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "observations": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "task_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "task_type": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "description": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "related_entity": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "reservation_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "unit_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "completed_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "completed_by": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "checklist": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "checklist_status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_tasks",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    },
+    {
+      "name": "fsp_units",
+      "id": "fsp_unitsStorageModel",
+      "keys": {
+        "code": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "type": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "capacity": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "base_rate": {
+          "type": "number",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            }
+          ]
+        },
+        "features": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "unit_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "commercial_status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "operational_status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "description": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "updated_at": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "category_name": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "data_classification": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "category_id": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "inactive_reason": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "textArea",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "params": [],
+          "modifiers": [
+            {
+              "name": "search",
+              "params": []
+            },
+            {
+              "name": "optional",
+              "params": []
+            }
+          ]
+        }
+      },
+      "network": "marcoguiaecuador",
+      "apiOptions": {
+        "name": "fsp_units",
+        "prefix": "/api/v1/networks/marcoguiaecuador/storages/"
+      },
+      "_dbType": "Storage",
+      "storageType": "JSON File",
+      "storageSchema": ""
+    }
+  ],
+  "total": 15,
+  "total_exact": true,
+  "page": 0,
+  "pages": 1
+}
